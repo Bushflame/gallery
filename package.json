@@ -1,0 +1,25 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "stylus": "stylus -u nib -w src/index.styl -o src/index.css",
+      "parcels": "parcel src/index.html",
+      "start": "npm run parcels & npm run stylus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bushflame/gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bushflame/gallery/issues"
+  },
+  "homepage": "https://github.com/Bushflame/gallery#readme",
+  "devDependencies": {
+    "nib": "^1.1.2"
+  }
+}

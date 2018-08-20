@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 1rem;
+  background: #333;
+}
+.wrapper {
+  width: 40%;
+  margin: auto;
+  border: 3px solid #fff;
+  background: #fff;
+}
+.main-img,
+.main-img img {
+  width: 100%;
+}
+.imgs .box {
+  width: 100%;
+}
+.imgs img {
+  width: 100%;
+}
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+.fade-in {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-animation: fadeIn 0.5s ease-in 1 forwards;
+  -moz-animation: fadeIn 0.5s ease-in 1 forwards;
+  -o-animation: fadeIn 0.5s ease-in 1 forwards;
+  -ms-animation: fadeIn 0.5s ease-in 1 forwards;
+  animation: fadeIn 0.5s ease-in 1 forwards;
+}
+.text {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  width: 100%;
+}
+@-moz-keyframes fadeIn {
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@-o-keyframes fadeIn {
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+h1 {
+  text-align: center;
+  font-size: 8rem;
+  color: #000;
+  text-shadow: 2px 2px 14px #ffa500;
+}
+#caption {
+  font-size: 2rem;
+}
